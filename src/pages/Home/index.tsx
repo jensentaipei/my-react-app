@@ -2,18 +2,11 @@ import { useState } from "react";
 import reactLogo from "/react.svg";
 import viteLogo from "/vite.svg";
 import styles from "./index.module.css";
-import wretcher from "@/test";
 
 function Home() {
   const [count, setCount] = useState(0);
 
   const handleClick = () => {
-    wretcher
-      .get("/test")
-      .json()
-      .then((res) => {
-        console.log("res", res);
-      });
     setCount(count + 1);
   };
 
