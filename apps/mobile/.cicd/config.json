@@ -1,0 +1,8 @@
+{
+  "ArtifactDir": "/dist",
+  "TargetBucket": {
+    "dev": "dev-my-react-app/mobile",
+    "prod": "prod-my-react-app/mobile"
+  },
+  "Brand": ["cn", "mo"]
+}

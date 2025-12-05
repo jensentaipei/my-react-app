@@ -1,0 +1,4 @@
+{
+  "extends": "@my-react-app/tsconfig/base",
+  "include": ["src"]
+}

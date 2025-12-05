@@ -1,0 +1,35 @@
+{
+  "name": "@my-react-app/web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "vite build",
+    "lint": "eslint .",
+    "type-check": "tsc -b",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "catalog:",
+    "react-dom": "catalog:",
+    "react-router-dom": "catalog:",
+    "@my-react-app/ui": "workspace:^",
+    "@tailwindcss/vite": "^4.0.16",
+    "daisyui": "^5.0.9",
+    "tailwindcss": "^4.0.16",
+    "wretch": "^2.11.0",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "@my-react-app/eslint-config": "workspace:^",
+    "@my-react-app/tsconfig": "workspace:^",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}
